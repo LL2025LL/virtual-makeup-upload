@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Virtual Makeup - Upload Photo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>上传照片试妆</h1>
+  <input type="file" id="upload" accept="image/*" />
+  <canvas id="canvas"></canvas>
+  <div>
+    <button onclick="changeMakeup('face1.png')">妆容1</button>
+    <button onclick="changeMakeup('face2.png')">妆容2</button>
+    <button onclick="downloadResult()">下载试妆图</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
