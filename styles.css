@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background: #fff;
+  font-family: sans-serif;
+}
+video, canvas {
+  width: 360px;
+  height: auto;
+  position: absolute;
+}
+canvas {
+  z-index: 2;
+}
+#controls {
+  margin-top: 420px;
+}
